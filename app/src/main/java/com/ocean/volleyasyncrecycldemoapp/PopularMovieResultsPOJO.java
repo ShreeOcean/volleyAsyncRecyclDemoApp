@@ -2,31 +2,14 @@ package com.ocean.volleyasyncrecycldemoapp;
 
 public class PopularMovieResultsPOJO {
 
-    @SerializedName("backdrop_path")
     private String BackDropPath;  //BackgroundPoster
-
-    @SerializedName("original_language")
     private String OriginalLanguage;
-
-    @SerializedName("original_title")
     private String OriginalTitle;
-
-    @SerializedName("overview")
     private String OverView;
-
-    @SerializedName("popularity")
     private double Popularity;
-
-    @SerializedName("poster_path")
     private String PosterPath;         //PosterImage
-
-    @SerializedName("release_date")
     private String ReleaseDate;
-
-    @SerializedName("vote_average")
     private double VoteAverage;   //Rating
-
-    @SerializedName("vote_count")
     private int VoteCount;
 
     public PopularMovieResultsPOJO(String backDropPath, String originalLanguage, String originalTitle, String overView, double popularity, String posterPath, String releaseDate, double voteAverage, int voteCount) {
