@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android Projects/VolleyAsyncTaskRecyclerDemoApp/app/src/main/res/layout/activity_async_demo.xml" value="0.165625" />
+        <entry key="..\:/Android Projects/VolleyAsyncTaskRecyclerDemoApp/app/src/main/res/layout/activity_demo_volley.xml" value="0.25" />
+        <entry key="..\:/Android Projects/VolleyAsyncTaskRecyclerDemoApp/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Android Projects/VolleyAsyncTaskRecyclerDemoApp/app/src/main/res/layout/custom_recycler_item.xml" value="0.17864583333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="jpab" />
+  </component>
+</project>
