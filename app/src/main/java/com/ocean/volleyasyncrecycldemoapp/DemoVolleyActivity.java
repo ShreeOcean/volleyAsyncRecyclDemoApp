@@ -18,6 +18,13 @@ public class DemoVolleyActivity extends AppCompatActivity {
 
         setContentView(R.layout.activity_demo_volley);
 
+        getMovieList();
 
+
+    }
+
+    private void getMovieList() {
+
+        String url = Utility.BASE_URL + Utility.POPULAR_MOVIE_URL + "api_key=" + Utility.KEY;
     }
 }

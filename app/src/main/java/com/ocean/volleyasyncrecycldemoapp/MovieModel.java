@@ -1,17 +1,18 @@
 package com.ocean.volleyasyncrecycldemoapp;
 
+import java.util.List;
+
 public class MovieModel {
 
-    @SerializedName("page")
+
     private int PopularMoviesPage;
 
-    @SerializedName("results")
+
     private List<PopularMovieResultsPOJO>  PopularMoviesResult;
 
-    @SerializedName("total_pages")
+
     private int PopularMoviesTotalPages;
 
-    @SerializedName("total_results")
     private int PopularMoviesTotalResults;
 
     public MovieModel(int popularMoviesPage, List<PopularMovieResultsPOJO> popularMoviesResult, int popularMoviesTotalPages, int popularMoviesTotalResults) {

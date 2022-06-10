@@ -29,6 +29,9 @@ android {
         viewBinding true
         dataBinding true
     }
+
+    //TODO: httpClient implementation
+    useLibrary 'org.apache.http.legacy'
 }
 
 dependencies {
