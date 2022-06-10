@@ -7,8 +7,7 @@ import android.view.View;
 
 import com.ocean.volleyasyncrecycldemoapp.databinding.ActivityDemoVolleyBinding;
 
-public class DemoVolleyActivity extends AppCompatActivity implements View.OnClickListener
-  {
+public class DemoVolleyActivity extends AppCompatActivity {
 
     ActivityDemoVolleyBinding binding;
 
