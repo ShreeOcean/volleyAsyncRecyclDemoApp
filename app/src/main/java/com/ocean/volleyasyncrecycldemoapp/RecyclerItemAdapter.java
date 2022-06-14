@@ -11,6 +11,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.bumptech.glide.Glide;
 import com.ocean.volleyasyncrecycldemoapp.databinding.CustomRecyclerItemBinding;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class RecyclerItemAdapter extends RecyclerView.Adapter<RecyclerItemAdapter.MyViewHolder> {
@@ -18,7 +19,7 @@ public class RecyclerItemAdapter extends RecyclerView.Adapter<RecyclerItemAdapte
     private List<PopularMovieResultsPOJO> list;
     private Context context;
 
-    public RecyclerItemAdapter(List<PopularMovieResultsPOJO> list, Context context) {
+    public RecyclerItemAdapter(ArrayList<ProfileDetailsModel> list, Context context) {
         this.list = list;
         this.context = context;
     }
